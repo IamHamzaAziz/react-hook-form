@@ -1,12 +1,22 @@
-# React + Vite
+# React Hook Form Demo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a complete example of how to use React Hook Form with React, Vite, and Tailwind CSS.
 
-Currently, two official plugins are available:
+## Features
+- React Hook Form with full validation
+- File upload with image preview
+- Radio, checkbox, and dropdown inputs
+- Form field inside a child component
+- Submit button disabled until form is valid
+- Clean Tailwind CSS UI
+- Form reset after submission
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Project Structure
+```
+src/
+├── App.jsx              # Main component with the form
+├── components/
+│   └── EmailInput.jsx   # Child input field (email)
+├── main.jsx
+└── index.css            # Tailwind setup
+```
